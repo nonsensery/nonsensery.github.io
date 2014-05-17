@@ -1,0 +1,92 @@
+body {
+	font-family: 'Georgia';
+	margin: 30px;
+	color: #333;
+	line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #f42;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica Neue';
+	margin-top: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: 200;
+	color: #bbb;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+p, ul, li {
+	margin-top: 0px;
+}
+
+ul {
+	padding-left: 25px;
+}
+
+small {
+	font-size: 85%;
+}
+
+@media (min-width: 860px) {
+
+body {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+
+@media (min-width: 1040px) {
+
+h2 {
+	float: left;
+	margin: 8px 0 0 -110px;
+}
+
+h2::before {
+	content: "~ ";
+}
+
+h2::after {
+	content: " ~";
+}
+
+}
+
+@media print {
+
+body {
+	font-size: 12px;
+	margin: 0.5in;
+	color: #000;
+}
+
+h3, p, ul, li {
+	margin: 0 0 5px;
+}
+
+a {
+	color: inherit;
+}
+
+}
+
