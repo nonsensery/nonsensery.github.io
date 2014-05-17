@@ -1,6 +1,8 @@
 timezone:    America/Los_Angeles
 highlighter: pygments
 
+markdown: kramdown
+
 kramdown:
   input: GFM
 
