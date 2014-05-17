@@ -1,7 +1,11 @@
 timezone:    America/Los_Angeles
 highlighter: pygments
-
-markdown: kramdown
+markdown:    kramdown
 
 kramdown:
-  input: GFM
+  input:       GFM
+  use_coderay: true
+  
+  coderay:
+    coderay_tab_width: 2
+    
